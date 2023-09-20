@@ -39,6 +39,7 @@ height: 4rem;
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .desktopMenuImg {
