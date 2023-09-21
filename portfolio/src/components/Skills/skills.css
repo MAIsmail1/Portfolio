@@ -12,6 +12,11 @@
     
 }
 
+.aboutMeSection {
+    display: flex; 
+    flex-direction: row;
+}
+
 .introMe {
     font-weight: 400;
     font-size: 0.9rem;
@@ -23,7 +28,7 @@
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
-    margin-bottom: 1.5rem;
+    
 }
 
 .skillBars {
@@ -58,6 +63,28 @@
     font-weight: 600;
 }
 
+.technologyTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.iconsList {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.iconsListItem{
+    padding: 0.25rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
 @media screen and (max-width: 720px){
     .skillBarText>p {
         font-size: 2vw;
@@ -73,7 +100,7 @@
     .skillBarImg {
         height: 2.25rem;
         width: 2.25rem;
-        
+
     }
 
     .skillBarText>h2 {

@@ -2,7 +2,11 @@ import React from 'react';
 import './skills.css';
 import WebsiteDesign from '../../assets/website-design.png';
 import AppDesign from '../../assets/app-design.png';
-import DatabaseDesign from '../../assets/database.png'
+import DatabaseDesign from '../../assets/database.png';
+import {FaJs, FaJava, FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaBootstrap, FaGit, FaFigma} from 'react-icons/fa';
+import {BiLogoPostgresql} from 'react-icons/bi';
+import {SiSpringboot, SiDjango, SiJest, SiPostman, SiPowerapps, SiPowerautomate} from 'react-icons/si';
+
 
 const Skills = () => {
   return (
@@ -21,6 +25,7 @@ const Skills = () => {
             computation thinking to my code
             </span>
             <br />
+            
             <span className="skillTitle">What I do</span>
             <div className="skillBars">
                 <div className="skillBar">
@@ -43,8 +48,66 @@ const Skills = () => {
                         <h2>Database Design</h2>
                         <p>Develop robust and efficient databases to organize, store, and manage data seamlessly, ensuring data integrity and accessibility.</p>
                     </div>
-                </div>
+                </div> 
             </div>
+            <span className="technologyTitle">Technologies used</span>
+            
+                <ul className="iconsList">
+                    <li>
+                     <a className="iconsListItem"><FaJs/></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><FaJava /></a>
+                    </li>
+                    <li>
+                    <a  className="iconsListItem"><FaHtml5 /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><FaCss3Alt /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><FaPython /></a>
+                    </li>
+                    <li>
+                    <a  className="iconsListItem"><FaReact /></a>
+                    </li>
+                    <li>
+                    <a  className="iconsListItem"><SiSpringboot /></a>
+                    </li>
+                    <li>
+                    <a  className="iconsListItem"><FaNodeJs /></a>
+                    </li>
+                    </ul>
+                    <ul className="iconsList">
+                    <li>
+                    <a  className="iconsListItem"><BiLogoPostgresql /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><SiJest /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><SiDjango /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><FaBootstrap /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><FaGit /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><SiPostman /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><FaFigma /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><SiPowerapps /></a>
+                    </li>
+                    <li>
+                    <a className="iconsListItem"><SiPowerautomate /></a>
+                    </li>
+                </ul>
+                
     </section>
   )
 }
