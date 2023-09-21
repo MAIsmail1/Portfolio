@@ -5,7 +5,7 @@ import AppDesign from '../../assets/app-design.png';
 import DatabaseDesign from '../../assets/database.png';
 import {FaJs, FaJava, FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaBootstrap, FaGit, FaFigma} from 'react-icons/fa';
 import {BiLogoPostgresql} from 'react-icons/bi';
-import {SiSpringboot, SiDjango, SiJest, SiPostman, SiPowerapps, SiPowerautomate} from 'react-icons/si';
+import {SiSpringboot, SiDjango, SiJest, SiPostman, SiPowerapps, SiPowerautomate, SiMui} from 'react-icons/si';
 
 
 const Skills = () => {
@@ -54,57 +54,96 @@ const Skills = () => {
             
                 <ul className="iconsList">
                     <li>
-                     <a className="iconsListItem"><FaJs/></a>
+                     <a className="iconsListItem"><FaJs/>
+                     <p className="iconItem">JavaScript</p>
+                     </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><FaJava /></a>
+                    <a className="iconsListItem"><FaJava />
+                    <p className="iconItem">Java</p>
+                    </a>
                     </li>
                     <li>
-                    <a  className="iconsListItem"><FaHtml5 /></a>
+                    <a  className="iconsListItem"><FaHtml5 />
+                    <p className="iconItem">HTML</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><FaCss3Alt /></a>
+                    <a className="iconsListItem"><FaCss3Alt />
+                    <p className="iconItem">CSS</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><FaPython /></a>
+                    <a className="iconsListItem"><FaPython />
+                    <p className="iconItem">Python</p>
+                    </a>
                     </li>
                     <li>
-                    <a  className="iconsListItem"><FaReact /></a>
+                    <a  className="iconsListItem"><FaReact />
+                    <p className="iconItem">React</p>
+                    </a>
                     </li>
                     <li>
-                    <a  className="iconsListItem"><SiSpringboot /></a>
+                    <a  className="iconsListItem"><SiSpringboot />
+                    <p className="iconItem">SpringBoot</p>
+                    </a>
                     </li>
                     <li>
-                    <a  className="iconsListItem"><FaNodeJs /></a>
+                    <a  className="iconsListItem"><FaNodeJs />
+                    <p className="iconItem">NodeJS</p>
+                    </a>
+                    </li>
+                    <li>
+                    <a  className="iconsListItem"><BiLogoPostgresql />
+                    <p className="iconItem">Postgres</p>
+                    </a>
                     </li>
                     </ul>
                     <ul className="iconsList">
                     <li>
-                    <a  className="iconsListItem"><BiLogoPostgresql /></a>
+                    <a className="iconsListItem"><SiJest />
+                    <p className="iconItem">Jest</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><SiJest /></a>
+                    <a className="iconsListItem"><SiDjango />
+                    <p className="iconItem">Django</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><SiDjango /></a>
+                    <a className="iconsListItem"><FaBootstrap />
+                    <p className="iconItem">Bootsrap</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><FaBootstrap /></a>
+                    <a className="iconsListItem"><FaGit />
+                    <p className="iconItem">Git</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><FaGit /></a>
+                    <a className="iconsListItem"><SiPostman />
+                    <p className="iconItem">Postman</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><SiPostman /></a>
+                    <a className="iconsListItem"><FaFigma />
+                    <p className="iconItem">Figma</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><FaFigma /></a>
+                    <a className="iconsListItem"><SiMui />
+                    <p className="iconItem">MUI</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><SiPowerapps /></a>
+                    <a className="iconsListItem"><SiPowerapps />
+                    <p className="iconItem">Powerapps</p>
+                    </a>
                     </li>
                     <li>
-                    <a className="iconsListItem"><SiPowerautomate /></a>
+                    <a className="iconsListItem"><SiPowerautomate />
+                    <p className="iconItem">Powerautomate</p>
+                    </a>
                     </li>
                 </ul>
                 
