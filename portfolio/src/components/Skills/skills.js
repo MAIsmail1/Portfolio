@@ -32,7 +32,7 @@ const Skills = () => {
                     <img src={WebsiteDesign} alt="WebsiteDesign" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Website Design</h2>
-                        <p>Create a stunning and user-friendly website that captures your unique brand identity and engages your audience effectively</p>
+                        <p>Create a stunning and user-friendly website that captures your unique brand identity and engages your audience effectively.</p>
                     </div>
                 </div>
                 <div className="skillBar">
