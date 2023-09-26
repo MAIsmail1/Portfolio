@@ -3,6 +3,7 @@ import "./contact.css";
 import {FaSquareXTwitter, FaLinkedin, FaGithub} from 'react-icons/fa6';
 import {SiGmail} from 'react-icons/si';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 
 const Contact = () => {
@@ -15,7 +16,11 @@ const Contact = () => {
           .then((result) => {
               console.log(result.text);
               e.target.reset();
-              alert('Email Sent !');
+              Swal.fire(
+                'Done!',
+                'Your response has been sent!',
+                'success'
+              )
           }, (error) => {
               console.log(error.text);
           });
@@ -30,9 +35,9 @@ const Contact = () => {
                 <span className="contactDesc">Don't like forms? Send an email through the icon below. </span>
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
                         <input type = "text" className="name" 
-                        placeholder="Insert your name" name="your_name" />
+                        placeholder="Your Name" name="from_name" />
                         <input type = "email" className="email" 
-                        placeholder="Insert your email" name="your_email" />
+                        placeholder="Your Email" name="from_email" />
                         <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
                 <button type="submit" value="Send" className="btn">Submit</button>
 
