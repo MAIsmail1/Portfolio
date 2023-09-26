@@ -8,7 +8,7 @@ const Menu = [
   id: 1,
   image: Work1,
   title: "Action",
-  link: "https://github.com/MAIsmail1/CapStone_frontend",
+  link: "https://github.com/MAIsmail1/Action_Frontend",
 },
 {
     id: 2,
@@ -26,7 +26,7 @@ const Menu = [
     id: 4,
     image: Work4,
     title: "Portfolio",
-    link: "https://github.com/MAIsmail1/CapStone_frontend",
+    link: "https://github.com/MAIsmail1/Portfolio",
   }
 ]
-export default Menu
+export default Menu;

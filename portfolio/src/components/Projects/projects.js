@@ -19,8 +19,8 @@ const Projects = () => {
                             <img src={image} alt="images" className="workImg" />
                             <div className="workMask"></div>
                             </div>
-                            <h3 className="workTitle">Action</h3>
-                            <a href="https://github.com/MAIsmail1/CapStone_frontend" className="workButton">
+                            <h3 className="workTitle">{title}</h3>
+                            <a href={link} className="workButton">
                                 <i className="iconLink"></i>
                             </a>
                         </div>
