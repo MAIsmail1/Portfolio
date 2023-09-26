@@ -7,7 +7,7 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const form = useRef();
-    
+
     const sendEmail = (e) => {
         e.preventDefault();
     
@@ -15,11 +15,13 @@ const Contact = () => {
           .then((result) => {
               console.log(result.text);
               e.target.reset();
-              alert('Email Sent !')
+              alert('Email Sent !');
           }, (error) => {
               console.log(error.text);
           });
+          
         };
+        
   return (
     <section id="contact">
         <div className="contactPage">
