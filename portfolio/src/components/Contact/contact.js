@@ -11,7 +11,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_i2nr9hs', 'template_8q4dkwc', form.current, 'RzwFjTdJmu9Dvb7iGqCXj')
+        emailjs.sendForm('service_i2nr9hs', 'template_8q4dkwc', form.current, '4bOxj7z7fT49bdV57')
           .then((result) => {
               console.log(result.text);
               e.target.reset();
@@ -21,7 +21,7 @@ const Contact = () => {
           });
           
         };
-        
+
   return (
     <section id="contact">
         <div className="contactPage">
@@ -30,11 +30,13 @@ const Contact = () => {
                 <span className="contactDesc">Don't like forms? Send an email through the icon below. </span>
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
                         <input type = "text" className="name" 
-                        placeholder="Insert your name" name="your_name"/>
+                        placeholder="Insert your name" name="your_name" />
                         <input type = "email" className="email" 
-                        placeholder="Insert your email" name="your_email"/>
+                        placeholder="Insert your email" name="your_email" />
                         <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
                 <button type="submit" value="Send" className="btn">Submit</button>
+
+                <br />
                 <ul className="iconLinks">
                     <li>
                         <a href="https://twitter.com/__mohamedismail" className="link"><FaSquareXTwitter /></a>
