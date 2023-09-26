@@ -1,0 +1,92 @@
+
+
+.sectionTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2rem;
+    text-align: center;
+}
+
+.workImg {
+    width: 400px;
+    height:300px;
+    padding: 2rem;
+    margin: 0.25rem;
+}
+
+.workContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+
+    
+}
+
+.workContainerGrid {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.workCard {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 10px;
+    
+}
+
+.workMask {
+    background: rgb(74, 74, 198);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+
+.workCard:hover .workMask {
+    opacity: 1;
+}
+.workTitle {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 0.98rem;
+    padding: 0 1.25rem;
+    position: absolute;
+    top: 3.75rem;
+    transform: translateY(30px);
+    transition: .3s;
+    opacity: 0;
+   
+}
+
+.workButton {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    font-size: var(--h3-font-size);
+    display: block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.workCard:hover .workButton{
+    opacity: 1;
+}
+
+.workCard:hover .workTitle {
+    opacity: 1;
+    transform: translateY(0);
+}
