@@ -10,7 +10,7 @@ import {SiSpringboot, SiDjango, SiJest, SiPostman, SiPowerapps, SiPowerautomate,
 
 const Skills = () => {
   return (
-    <section id="skills">
+    <section id="tech" className="skills">
             <span className="title">About Me</span>
             <br />
             <span className="introMe">
@@ -30,7 +30,7 @@ const Skills = () => {
         
             
             <span className="skillTitle">What I do</span>
-            <div id="tech" className="skillBars">
+            <div className="skillBars">
                 <div className="skillBar">
                     <img src={WebsiteDesign} alt="WebsiteDesign" className="skillBarImg" />
                     <div className="skillBarText">
@@ -56,9 +56,10 @@ const Skills = () => {
             <br />
             <br />
             <br />
-            <span className="technologyTitle">Technologies used</span>
             
-                <ul className="iconsList">
+            <span id="skills" className="technologyTitle">Technologies used</span>
+            
+                <ul  className="iconsList">
                     <li>
                      <a className="iconsListItem"><FaJs/>
                      <p className="iconItem">JavaScript</p>
