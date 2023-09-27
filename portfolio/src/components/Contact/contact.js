@@ -35,10 +35,10 @@ const Contact = () => {
                 <span className="contactDesc">Don't like forms? Send an email through the icon below. </span>
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
                         <input type = "text" className="name" 
-                        placeholder="Your Name" name="from_name" />
+                        placeholder="Your Name" name="from_name" required/>
                         <input type = "email" className="email" 
-                        placeholder="Your Email" name="from_email" />
-                        <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
+                        placeholder="Your Email" name="from_email" required/>
+                        <textarea className="msg" name="message" rows="5" placeholder="Your Message" required></textarea>
                 <button type="submit" value="Send" className="btn">Submit</button>
 
                 <br />

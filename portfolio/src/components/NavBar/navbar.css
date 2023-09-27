@@ -86,10 +86,12 @@ height: 4rem;
 }
 
 .mobMenu {
-    color: rgb(74, 74, 198);
+    color: white;
     display: none;
     object-fit: cover;
     height: 1.8rem;
+    font-size: 2.5rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width:720px) {

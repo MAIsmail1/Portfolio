@@ -1,10 +1,14 @@
-#intro {
-    
+#intro {  
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    
     height: 50rem;
+    overflow: hidden;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .bg {

@@ -6,10 +6,6 @@ import btnImg from '../../assets/hireme.png';
 import resume from '../../assets/Resume (2).pdf';
 
 const Intro = () => {
-
-  
-  
-    
   return (
     <section id = "intro">
         <div className="introContent">
@@ -21,7 +17,6 @@ const Intro = () => {
         </a>
         </div>
         <img src = {bg} alt = "Profile" className="bg" />
-        
     </section>
   )
 }
