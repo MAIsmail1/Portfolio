@@ -10,7 +10,8 @@ import {SiSpringboot, SiDjango, SiJest, SiPostman, SiPowerapps, SiPowerautomate,
 
 const Skills = () => {
   return (
-    <section id="tech" className="skills">
+    <section  className="skills">
+            <div id="tech" className='skills'>
             <span className="title">About Me</span>
             <br />
             <span className="introMe">
@@ -53,11 +54,12 @@ const Skills = () => {
                     </div>
                 </div> 
             </div>
+            </div>
             <br />
             <br />
             <br />
-            
-            <span id="skills" className="technologyTitle">Technologies used</span>
+            <div id="skills" className='skills'>
+            <span className="technologyTitle">Technologies used</span>
             
                 <ul  className="iconsList">
                     <li>
@@ -153,6 +155,7 @@ const Skills = () => {
                     </a>
                     </li>
                 </ul>
+                </div>
                 <br />
             <br />
             <br />

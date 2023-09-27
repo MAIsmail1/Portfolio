@@ -57,3 +57,8 @@ height: 4rem;
     width: 1rem;
     margin: 1rem 0.35rem;
 }
+
+.active {
+    color: rgb(74, 74, 198);
+    border-bottom: 3px solid rgb(74, 74, 198);
+}
