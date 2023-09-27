@@ -13,3 +13,17 @@ body{
     overflow: hidden;
     overflow-y: scroll;
 }
+
+@keyframes button-push {
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+.btn:hover {
+    animation: button-push 0.3s linear 1;
+}
