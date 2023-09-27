@@ -20,7 +20,7 @@ const Menu = [
     id: 3,
     image: Work3,
     title: "Academic Mind",
-    link: "https://github.com/MAIsmail1/CapStone_frontend",
+    link: "https://github.com/mutasim94/academic_minds",
   },
   {
     id: 4,

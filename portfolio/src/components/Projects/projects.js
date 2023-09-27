@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './projects.css';
 import Menu from './menu';
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Projects = () => {
     const [items, setItems] = useState(Menu);
@@ -21,7 +22,8 @@ const Projects = () => {
                             </div>
                             <h3 className="workTitle">{title}</h3>
                             <a href={link} className="workButton">
-                                <i className="iconLink"></i>
+                            
+                                <i className="iconLink"><IoIosArrowRoundForward /></i>
                             </a>
                         </div>
                 )

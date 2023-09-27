@@ -73,10 +73,14 @@
 .iconsList {
     display: flex; 
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     list-style-type: none;
     margin: 1rem;
+
+    
+
 }
 
 .iconsListItem{

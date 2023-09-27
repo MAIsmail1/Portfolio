@@ -81,6 +81,14 @@
     line-height: 42px;
     transition: .3s;
     opacity: 0;
+    color: black;
+}
+
+.iconLink {
+    color: rgb(74, 74, 198);
+    font-size: 2rem;
+    position: relative;
+    top: 0.3rem;
 }
 
 .workCard:hover .workButton{
