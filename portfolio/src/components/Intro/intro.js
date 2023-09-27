@@ -19,6 +19,7 @@ const Intro = () => {
         </Link>
         </div>
         <img src = {bg} alt = "Profile" className="bg" />
+        
     </section>
   )
 }

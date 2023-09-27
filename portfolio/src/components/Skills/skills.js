@@ -25,9 +25,12 @@ const Skills = () => {
             computation thinking to my code
             </span>
             <br />
+            <br />
+            <br />
+        
             
             <span className="skillTitle">What I do</span>
-            <div className="skillBars">
+            <div id="tech" className="skillBars">
                 <div className="skillBar">
                     <img src={WebsiteDesign} alt="WebsiteDesign" className="skillBarImg" />
                     <div className="skillBarText">
@@ -50,6 +53,9 @@ const Skills = () => {
                     </div>
                 </div> 
             </div>
+            <br />
+            <br />
+            <br />
             <span className="technologyTitle">Technologies used</span>
             
                 <ul className="iconsList">
@@ -146,7 +152,9 @@ const Skills = () => {
                     </a>
                     </li>
                 </ul>
-                
+                <br />
+            <br />
+            <br />
     </section>
   )
 }

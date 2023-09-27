@@ -12,6 +12,11 @@
     
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .aboutMeSection {
     display: flex; 
     flex-direction: row;
