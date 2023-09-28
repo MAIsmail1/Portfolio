@@ -7,8 +7,8 @@ import resume from '../../assets/Resume (2).pdf';
 
 const Intro = () => {
   return (
-    <section id = "intro">
-        <div className="introContent">
+    <section id = "intro" >
+        <div className="introContent" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <span className="hello">Hello,</span>
             <span className="IntroText">I'm <span className="introName">Mohamed</span> <br /> Software Developer</span>
             <p className="introPara">I am a skilled and passionate software developer with  <br /> experience in creating websites and web applications</p>
@@ -16,7 +16,7 @@ const Intro = () => {
         <button className="btn"><img src={btnImg} alt="" className="btnImg"/>Hire Me</button>
         </a>
         </div>
-        <img src = {bg} alt = "Profile" className="bg" />
+        <img src = {bg} alt = "Profile" className="bg" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true"/>
     </section>
   )
 }

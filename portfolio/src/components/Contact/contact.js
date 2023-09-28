@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
-        <div className="contactPage">
+        <div className="contactPage" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
         <h2 className="contactPageTitle">Get In Touch</h2>       
                 <span className="contactDesc">Let's talk about everything!</span>
                 <span className="contactDesc">Don't like forms? Send an email through the icon below. </span>

@@ -11,11 +11,11 @@ const Projects = () => {
     <section className="workContainer" id="work">
         <h2 className="sectionTitle">Projects</h2>
         <br />
-        <div className="workContainerGrid">
+        <div className="workContainerGrid" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             {items.map((elem) => {
                 const{id, image, title, link} = elem;
                 return(
-                    <div className="workCard" key={id}>
+                    <div className="workCard" key={id} data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                         <div className="workThumbnail">
                             <img src={image} alt="images" className="workImg" />
                             <div className="workMask"></div>
