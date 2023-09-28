@@ -3,7 +3,6 @@ import './navbar.css';
 import logo from '../../assets/logo.jpg';
 import {Link} from 'react-scroll';
 import contactImg from '../../assets/contact.png';
-import menu from '../../assets/menu.png';
 import {BiMenu} from "react-icons/bi";
 
 
