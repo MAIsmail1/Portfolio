@@ -98,3 +98,17 @@
 
     }
 }
+
+@media screen and (max-width:840px) {
+    .hello {
+        font-size: 1.75rem;
+        font-weight: 100;
+    }
+     .introName {
+        font-size: 3rem;
+        
+    }
+    .introText {
+        font-size: 3rem;
+    }
+}

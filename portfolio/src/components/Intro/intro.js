@@ -11,7 +11,7 @@ const Intro = () => {
     <section id="intro" >
       <div className="introContent" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
         <span className="hello">Hello,</span>
-        <span className="IntroText">I'm <span className="introName">Mohamed</span> <br />
+        <span className="introText">I'm <span className="introName">Mohamed</span> <br />
           <TypeAnimation
             sequence={[
               'Software Developer',
