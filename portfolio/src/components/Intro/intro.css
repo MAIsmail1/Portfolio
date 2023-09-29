@@ -6,9 +6,9 @@
     overflow: hidden;
     display: flex; 
     flex-direction: row;
-    align-items: center;
+    /*align-items: center;
     justify-content: space-between;
-    text-align: center;
+    text-align: center;*/
 }
 
 .bg {
@@ -18,7 +18,6 @@
     z-index: -1;
     object-fit: cover;
     height: 60vh;
-    
 }
 
 .introContent {

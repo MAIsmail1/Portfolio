@@ -17,8 +17,6 @@ const Intro = () => {
               'Software Developer',
               2500,
               'Web Designer',
-              2500,
-              'I Love Software Development',
               2500
             ]}
             repeat={Infinity}
@@ -28,8 +26,11 @@ const Intro = () => {
         <a href={resume} download="Resume">
         <button className="btn"><img src={btnImg} alt="" className="btnImg"/>Hire Me</button>
         </a>
-        </div>
+        <div>
         <img src = {bg} alt = "Profile" className="bg" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true"/>
+        </div>
+        </div>
+        
     </section>
   )
 }
