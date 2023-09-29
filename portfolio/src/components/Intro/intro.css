@@ -6,18 +6,20 @@
     overflow: hidden;
     display: flex; 
     flex-direction: row;
+    
     /*align-items: center;
     justify-content: space-between;
     text-align: center;*/
 }
 
 .bg {
-    position: absolute;
-    top: 10rem;
-    right: 15rem;
+    position: relative;
+    top: 5rem;
+    right: 7rem;
     z-index: -1;
-    object-fit: cover;
+    object-fit: cover; 
     height: 60vh;
+    width: 300px;
 }
 
 .introContent {
@@ -79,8 +81,20 @@
     }
     
 }
-@media screen and (max-width:480px) {
+/*@media screen and (max-width:480px) {
     .bg {
         right: -20vw;
+    }
+}*/
+
+@media screen and (max-width:840px) {
+    .hideImgSmall {
+    position: absolute;
+    top: 10rem;
+    margin-right: 5rem; 
+    z-index: -1;
+    object-fit: cover;
+    height: 60vh;
+
     }
 }
