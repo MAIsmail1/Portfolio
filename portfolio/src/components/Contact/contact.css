@@ -67,3 +67,7 @@
     color: white;
 }
 
+.msg {
+    resize: none;
+}
+
