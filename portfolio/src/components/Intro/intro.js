@@ -1,7 +1,6 @@
 import React from 'react';
 import './intro.css';
 import bg from '../../assets/mypicture.png'
-import { Link } from 'react-scroll';
 import btnImg from '../../assets/hireme.png';
 import resume from '../../assets/Resume (2).pdf';
 import { TypeAnimation } from 'react-type-animation';
@@ -25,7 +24,7 @@ const Intro = () => {
         </span>
         <p className="introPara">I am a skilled and passionate software developer with  <br /> experience in creating websites and web applications</p>
         <a href={resume} download="Resume">
-          <button className="btn"><img src={btnImg} alt="" className="btnImg" />Hire Me</button>
+          <button className="btn"><img src={btnImg} alt="" className="btnImg" />Resume</button>
         </a>
       </div>
       <div>
