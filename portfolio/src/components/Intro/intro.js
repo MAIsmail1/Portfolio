@@ -3,7 +3,7 @@ import './intro.css';
 import bg from '../../assets/mypicture.png'
 
 import btnImg from '../../assets/hireme.png';
-import resume from '../../assets/Resume (2).pdf';
+import resume from '../../assets/Mohamed Ismail Resume.pdf';
 import { TypeAnimation } from 'react-type-animation';
 
 const Intro = () => {
