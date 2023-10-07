@@ -104,4 +104,10 @@ height: 4rem;
     .desktopMenuBtn {
         display: none;
     }
+    .logo {
+        position: relative;
+        top: 0.4rem;
+        height: 3rem;
+        width: 3rem;
+    }
 }

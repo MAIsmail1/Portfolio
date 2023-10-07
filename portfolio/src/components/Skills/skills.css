@@ -139,6 +139,21 @@ li:hover {
     .skillBarText>h2 {
         font-size: 5vw;
     }
+    .technologyTitle {
+        font-size: 2rem;
+    }
+    .skillTitle {
+        font-size: 2rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .introMe {
+        font-size: 0.75rem;
+    }
+    .iconsListItem {
+        font-size: 2.5rem;
+    }
 }
 
 

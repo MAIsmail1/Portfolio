@@ -94,8 +94,7 @@
     margin-right: 5rem; 
     z-index: -1;
     object-fit: cover;
-    height: 60vh;
-
+    /* height: 50vh; */
     }
 }
 

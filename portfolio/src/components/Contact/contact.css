@@ -71,3 +71,21 @@
     resize: none;
 }
 
+@media screen and (max-width:480px) {
+    .contactPageTitle {
+        font-size: 2rem;
+    }
+    .contactDesc {
+        font-size: small;
+        margin: 0.4rem;
+    }
+
+    .name, .email, .msg {
+        font-size: small;
+        width: 90%;
+    }
+    .link {
+        font-size: 2.5rem;
+    }
+}
+
