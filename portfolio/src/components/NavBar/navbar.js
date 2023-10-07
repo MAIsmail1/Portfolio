@@ -11,7 +11,7 @@ const [showMenu, setShowMenu] = useState(false)
 
   return (
     <nav className="navbar">
-        <a href='.'><img src = {logo} alt = "Logo" className = "logo"/></a>
+        <a href='.' className='logoBtn'><img src = {logo} alt = "Logo" className = "logo"/></a>
         <div className="desktopMenu">
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-75} duration={500} className="desktopMenuListItem">Home</Link>
         <Link activeClass='active' to='tech' spy={true} smooth={true} offset={-75} duration={500} className="desktopMenuListItem">About</Link>

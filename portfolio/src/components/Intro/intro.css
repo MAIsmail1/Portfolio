@@ -59,7 +59,15 @@
     border: none;
     border-radius: 2rem;
     cursor: pointer;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent !important;
 }
+.btnRes{
+    -webkit-tap-highlight-color: transparent !important;
+    outline: none !important;
+    width: 144px;
+}
+
 
 .btnImg {
     object-fit: cover;
@@ -109,5 +117,31 @@
     }
     .introText {
         font-size: 3rem;
+    }
+}
+@media screen and (max-width:480px) {
+    .hello {
+        font-size: 1.25rem;
+        font-weight: 100;
+    }
+     .introName {
+        font-size: 2rem;
+        
+    }
+    .introText {
+        font-size: 2rem;
+    }
+
+    .introPara {
+        font-size: small;
+    }
+    .hideImgSmall {
+        position: relative;
+        right: 2rem;
+        width: 200px;
+        height: 300px;
+        }
+    .animationText {
+        font-size: 1rem;
     }
 }
